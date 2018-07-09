@@ -1,0 +1,172 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search for data in google",
+        "description": "",
+        "id": "google-search;search-for-data-in-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18474456355,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i opened google browser",
+            "match": {
+              "location": "LaunchGoogle.i_opened_google_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13618850910,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "searched for \"Today weather\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Today weather",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchInGoogle.searched_for(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 972576669,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "capture the screenshot od today weather",
+            "match": {
+              "location": "GetDataFromGoogle.capture_the_screenshot_od_today_weather()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Google search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "DataCapture.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@All"
+      },
+      {
+        "line": 1,
+        "name": "@Last"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open google chrome",
+        "description": "",
+        "id": "launch-chrome;open-google-chrome",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6145150603,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i opened google browser",
+            "match": {
+              "location": "LaunchGoogle.i_opened_google_browser()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Launch chrome",
+    "description": "",
+    "id": "launch-chrome",
+    "keyword": "Feature",
+    "uri": "LaunchChrome.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@All"
+      },
+      {
+        "line": 1,
+        "name": "@Second"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search for data in google",
+        "description": "",
+        "id": "google-search;search-for-data-in-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6326796769,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i opened google browser",
+            "match": {
+              "location": "LaunchGoogle.i_opened_google_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2059861551,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "searched for \"Sending email using Java mail SMTP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sending email using Java mail SMTP",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchInGoogle.searched_for(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Google search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "Search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@All"
+      }
+    ]
+  }
+]
